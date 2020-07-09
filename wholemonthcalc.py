@@ -67,4 +67,4 @@ def wholeMonths(startdate, enddate):
 dStart = dateInput('Enter Starting date')
 dEnd = dateInput('Enter Ending date')
 
-print('There are', wholeMonths(leaveStart, leaveEnd), 'full months between above two dates.')
+print('There are', wholeMonths(dStart, dEnd), 'full months between above two dates.')
